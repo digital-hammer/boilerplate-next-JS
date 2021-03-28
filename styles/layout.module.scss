@@ -21,6 +21,18 @@
   width: 100%;
 }
 
+.text_left {
+  text-align: left;
+}
+
+.text_right {
+  text-align: right;
+}
+
+.text_center {
+  text-align: center;
+}
+
 .f_col {
   flex-direction: column;
 }
@@ -77,6 +89,18 @@
 }
 
 @media screen and (max-width: 600px) {
+  .text_left_mob {
+    text-align: left;
+  }
+  
+  .text_right_mob {
+    text-align: right;
+  }
+  
+  .text_center_mob {
+    text-align: center;
+  }
+  
   .f_row_mob {
     flex-direction: row;
   }
