@@ -2,7 +2,7 @@ import cx from 'classnames'
 import {useEffect, useState} from 'react'
 import Link from 'next/link'
 import Image from 'components/image'
-import ContactInfo from 'components/contactInfo'
+import ContactInfo from 'components/contact-info'
 
 import global from 'styles/global.module.scss'
 import layout from 'styles/layout.module.scss'

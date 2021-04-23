@@ -8,7 +8,7 @@ import global from 'styles/global.module.scss'
 import layout from 'styles/layout.module.scss'
 import local from 'styles/components/header/mobile.module.scss'
 
-import ContactInfo from 'components/contactInfo'
+import ContactInfo from 'components/contact-info'
 import Carrot from 'components/carrot'
 
 const FactoryNavLink = (props) => {
