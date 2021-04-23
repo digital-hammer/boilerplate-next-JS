@@ -1,17 +1,12 @@
-const store = {
-	url: '/online-store',
-	name: 'Online Store',
+const shop = {
+	url: 'https://shop.treehousevineyards.com',
+	name: 'Shop',
 	menu: []
 }
 
-const history = {
-	name: 'History',
-	url: '/history'
-}
-
 const wineryAndWines = {
-	name: 'Winery and Wines',
-	url: '/winery-and-wines'
+	name: 'Wine List',
+	url: '/wine-list'
 }
 
 const awards = {
@@ -51,19 +46,19 @@ const weddings = {
 }
 
 const privateEvent = {
-	name: 'Private Event',
-	url: '/private-events'
+	name: 'Private Functions',
+	url: '/private-functions'
 }
 
 const treehouseRentals = {
 	name: 'Treehouse Rentals',
-	url: '/treehouse-rentals'
+	url: '/treehouses'
 }
 
 const aboutUs = {
 	url: '/about-us',
 	name: 'About Us',
-	menu: [history, wineryAndWines, awards, photoGallery, FAQs, testimonials]
+	menu: [wineryAndWines, awards, photoGallery, FAQs, testimonials]
 }
 
 const newsAndEvents = {
@@ -77,23 +72,22 @@ const wineClub = {
 	name: 'Wine Club',
 }
 
+const planVisit = {
+	url: '/visit',
+	name: 'Plan A Visit',
+}
+
 const rentalsAndPrivateFunctions = {
-	url: '/rentals-private-functions',
-	name: 'Rentals and Private Functions',
+	url: '/rentals',
+	name: 'Rentals and Reservations',
 	menu: [weddings, treehouseRentals, privateEvent]
 }
 
-const contact = {
-	url: '/contact-us',
-	name: 'Contact Us',
-}
-
 const nav = [
-	store,
+	shop,
 	aboutUs,
 	wineClub,
-	contact,
-	newsAndEvents,
+	planVisit,
 	rentalsAndPrivateFunctions,
 ]
 
