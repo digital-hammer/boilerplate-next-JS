@@ -2,12 +2,12 @@ import Image from 'next/image'
 import Link from 'next/link'
 import cx from 'classnames'
 
-import MobileNav from '../components/mobileNav'
-import DesktopNav from '../components/desktopNav'
-import nav from '../components/headerLinks'
+import MobileNav from './mobile'
+import DesktopNav from './desktop'
+import nav from './links'
 
-import hs from '../styles/sections/header.module.scss'
-import layout from '../styles/layout.module.scss'
+import hs from 'styles/sections/header.module.scss'
+import layout from 'styles/layout.module.scss'
 
 
 

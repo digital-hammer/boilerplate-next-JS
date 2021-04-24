@@ -5,7 +5,7 @@ import Image from 'components/image'
 import global from 'styles/global.module.scss'
 import layout from 'styles/layout.module.scss'
 import local from 'styles/components/header/desktop.module.scss'
-import Banner from 'components/header/banner'
+import Banner from './banner'
 import ContactInfo from 'components/contact-info'
 
 

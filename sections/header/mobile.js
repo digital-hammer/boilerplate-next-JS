@@ -2,7 +2,7 @@ import cx from 'classnames'
 import {useRef, useState, useEffect} from 'react'
 import Link from 'next/link'
 import Image from 'components/image'
-import Banner from 'components/header/banner'
+import Banner from './banner'
 
 import global from 'styles/global.module.scss'
 import layout from 'styles/layout.module.scss'

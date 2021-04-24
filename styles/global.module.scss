@@ -1,5 +1,9 @@
 @import 'styles/theme';
 
+.card {
+  box-shadow: 0 0 -1px 20px rgba(50, 50, 50, .5);
+}
+
 .thin {
   font-weight: 300;
 }
