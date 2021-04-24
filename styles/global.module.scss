@@ -1,43 +1,11 @@
-@import 'typography';
+@import 'styles/theme';
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  &.no-mb {
-    margin-bottom: 0;
-  }
-}
-.serif, .cursive {
-  font-family: $serif;
-  font-weight: 500;
-
-  &.thin {
-    font-weight: 300;
-  }
-  
-  &.bold {
-    font-weight: 700;
-  }
+.thin {
+  font-weight: 300;
 }
 
-.cursive {
-  font-style: italic;
-}
-
-.sans_serif {
-  font-family: $sans-serif;
-  font-weight: 400;
-
-  &.thin {
-    font-weight: 200;
-  }
-  
-  &.bold {
-    font-weight: 600;
-  }
+.bold {
+  font-weight: 700;
 }
 
 .underline {
@@ -46,6 +14,14 @@ h6 {
 
 .link {
   cursor: pointer;
+}
+
+.cursive {
+  font-family: $cursive;
+}
+
+.sans {
+  font-family: $sans;
 }
 
 .legal {
@@ -62,6 +38,18 @@ h6 {
 
 .text_black {
   color: $black;
+}
+
+.text_primary {
+  color: $primary;
+}
+
+.text_secondary {
+  color: $secondary;
+}
+
+.text_complementary {
+  color: $complementary;
 }
 
 .animation {

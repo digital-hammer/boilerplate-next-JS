@@ -1,17 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,500;0,700;1,300;1,500;1,700&family=Open+Sans:wght@300;400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inconsolata|Indie+Flower|Open+Sans|Quicksand:400,700&display=swap");
 
-$white: #F4F3F2;
-$grey: #968E85;
-$grey-lt: #D1CDC9;
-$grey-dk: #544e49;
+$white: #fafcfa;
+$grey: #eff2ef;
+$grey-light: #D1CDC9;
+$grey-dark: #544e49;
 $black: #2B2825;
-$primary: #;
-$primary-lt: #;
-$primary-dk: #;
-$secondary: #;
-$secondary-lt: #;
-$secondary-dk: #;
-$serif: 'Cormorant Garamond', serif;
-$sans-serif: 'Montserrat', sans-serif;
-$special: 'Cormorant Garamond', serif;
+
+$primary: #451A8D;
+$primary-light: #7234DA;
+$primary-dark: #1B0A36;
+
+$secondary: #02a9f7;
+$secondary-light: #61CCFE;
+$secondary-dark: #016492;
+
+$complementary: #AD36CB;
+$complementary-light: #CE87E0;
+$complementary-dark: #69207B;
+
+$sans: 'Quicksand', sans-serif;
+$cursive: 'Indie Flower', cursive;

@@ -1,8 +1,8 @@
 import {useState, useEffect, useRef} from 'react'
 import cx from 'classnames'
 
-import layout from '../styles/layout.module.scss'
-import global from '../styles/global.module.scss'
+import layout from 'styles/layout.module.scss'
+import global from 'styles/global.module.scss'
 
 export default () => {
   const [width, setWidth] = useState(0)
@@ -18,7 +18,7 @@ export default () => {
 
   return (
     <>
-      
+      <h1 className={global.text_complementary}>Devicarus</h1>
     </>
   )
 }

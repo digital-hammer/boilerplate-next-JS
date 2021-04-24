@@ -1,10 +1,10 @@
-@import 'typography';
+@import 'styles/theme';
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: $sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  font-family: $sans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 
 }
@@ -16,7 +16,7 @@ h4,
 h5,
 h6 {
   font-weight: 500;
-  font-family: $serif;
+  font-family: $cursive;
   margin: 0;
   margin-bottom: 10px;
 }
@@ -48,9 +48,9 @@ h6 {
 p {
   font-size: 18px;
   font-weight: 400;
-  color: $dark-grey;
+  color: $grey-dark;
   letter-spacing: .3px;
-  font-family: $sans-serif;
+  font-family: $sans;
 }
 
 a {
