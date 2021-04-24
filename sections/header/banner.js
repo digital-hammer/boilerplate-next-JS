@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 import global from 'styles/global.module.scss'
 import layout from 'styles/layout.module.scss'
-import local from 'styles/components/header/banner.module.scss'
+import local from 'styles/sections/header/banner.module.scss'
 
 export default (props) => {
 	const {type="desktop"} = props
