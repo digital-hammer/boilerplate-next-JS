@@ -7,8 +7,6 @@ import global from 'styles/global.module.scss'
 
 export default () => {
   const [width, setWidth] = useState(0)
-  const animatedText = []
-  useEffect(()=> animatedText.map((i)=> i.classList.add(global.animate_in_end)))
   useEffect(() => {
     const w = () => setWidth(window.innerWidth)
     w()
