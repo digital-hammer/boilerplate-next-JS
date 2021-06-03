@@ -1,6 +1,6 @@
 import {useState, useEffect, useRef} from 'react'
 import cx from 'classnames'
-import Header from 'sections/header/basic.js'
+import Header from 'sections/header.js'
 
 import layout from 'styles/layout.module.scss'
 import global from 'styles/global.module.scss'
